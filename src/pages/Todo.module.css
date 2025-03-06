@@ -1,0 +1,82 @@
+.container {
+  max-width: 550px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-family: "Greycliff CF", sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  color: var(--mantine-color-text);
+}
+
+.taskCard {
+  margin-top: 16px;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: var(--mantine-color-body);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease;
+}
+
+.taskCard:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.taskHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.taskTitle {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: var(--mantine-color-text);
+}
+
+.taskSummary {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: var(--mantine-color-dimmed);
+}
+
+.noTasks {
+  font-size: 1.1rem;
+  color: var(--mantine-color-dimmed);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.newTaskButton {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.modalContent {
+  padding: 20px;
+}
+
+.modalTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.modalInput {
+  margin-bottom: 16px;
+}
+
+.modalActions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
